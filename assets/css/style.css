@@ -247,6 +247,7 @@
         left: -100%;
         width: 100%;
         height: 100%;
+        transition: all 200ms linear;
     }
 
     label[for="navbar"] {
@@ -270,12 +271,6 @@
     input[type="checkbox"]:checked~.lg-view {
         left: 0;
     }
-
-    /* .col-12-lg {
-        width: 100%;
-        padding-left: 12px;
-        padding: 12px;
-    } */
 }
 
 .prop {
@@ -610,6 +605,7 @@
     }
 
 }
+
 
 .scrolled {
     background-color: #000;
