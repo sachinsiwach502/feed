@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: -12px;
+    margin-right: -12px;
     margin-left: -12px;
 }
 
@@ -84,6 +84,7 @@
     padding: 11px 28px;
     align-items: flex-start;
     gap: 10px;
+    cursor: pointer;
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
@@ -135,6 +136,7 @@
 
     /* 24px */
     opacity: 1;
+    padding-top: 15px;
 }
 
 .Following {
@@ -144,6 +146,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
+    padding-top: 15px;
     /* 24px */
 
 }
@@ -410,9 +413,9 @@
     padding-right: 12px;
 } */
 
-.like:hover {
+/* .like:hover {
     padding-top: 3px;
-}
+} */
 
 .pt-30 {
     padding-top: 30px;
@@ -445,6 +448,10 @@
     display: inline-flex;
     height: 56px;
     padding: 11px 28px;
+}
+
+.padding-5 {
+    padding: 5px;
 }
 
 .input {
@@ -554,6 +561,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    max-width: 60%;
 }
 
 .footer-1 h4 {
@@ -572,6 +580,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 30px;
 }
 
 .py-60 {
@@ -600,6 +609,10 @@
         flex-wrap: wrap;
     }
 
+}
+
+.scrolled {
+    background-color: #000;
 }
 
 .input {
@@ -653,6 +666,7 @@ input {
     margin-bottom: 20px;
 }
 
+
 @media (min-width:768px) {
     .col-12-lg {
         width: 100%;
@@ -695,3 +709,17 @@ input {
         padding-right: 12px;
     }
 } */
+/* .fb:hover {
+    padding-top: 2px;
+} */
+.insta:hover {
+    padding-top: 2px;
+}
+
+.fb:hover {
+    padding-top: 2px;
+}
+
+.twit:hover {
+    padding-top: 2px;
+}
