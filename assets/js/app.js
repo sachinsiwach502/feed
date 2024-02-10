@@ -1,7 +1,7 @@
 let text = document.querySelectorAll(".link");
 let bar = document.querySelectorAll(".menu")
 let navBar = document.querySelector("nav");
-console.log(text)
+console.log(text);
 window.addEventListener("scroll", () => {
     if (window.scrollY > 500) {
         navBar.classList.add("scrolled");
@@ -11,8 +11,8 @@ window.addEventListener("scroll", () => {
 
     } else {
         navBar.classList.remove("scrolled");
-        text.forEach(e => e.style.color = "black")
-        bar.forEach(e => e.style.backgroundColor = "black")
+        text.forEach(e => e.style.color = "black");
+        bar.forEach(e => e.style.backgroundColor = "black");
     }
 });
 
